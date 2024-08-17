@@ -19,9 +19,3 @@ The contract [`Game.sol`](./contracts/Game.sol) encodes a card fighting game whe
 The [`Game.sol`](./contracts/Game.sol) is deployed with the flagHolder holding an apparently unbeatable deck with perfect Mons.
 
 Your mission is to obtain the flag: i.e. `game.flagHolder()` should return an address that you control
-
-## How to submit
-
-- Solutions must be submitted through the hats application at https://app.hats.finance/vulnerability
-- You must submit a working demonstration of the solution. This could be, for example, a hardhat project in which you fork mainnet and provide a script that will obtain the flag.
-- The contract is deployed on rinkeby: https://rinkeby.etherscan.io/address/0x9E4c331120448816450615349BD25605e4A2049E . However, if you do not want to give away the solution to your competitors, do not execute anything on-chain :)
